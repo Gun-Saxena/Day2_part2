@@ -4,6 +4,8 @@ public class StudentModel {
         private int id;
         private String name;
         private String email;
+        public StudentModel(){
+        }
         public StudentModel(int id, String name, String email) {
             this.id = id;
             this.name = name;
